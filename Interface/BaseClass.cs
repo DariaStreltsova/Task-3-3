@@ -8,7 +8,7 @@ namespace Interface
         protected abstract void RandomInput();
         public abstract void Print();
         public abstract void average();
-        public void Choice(bool InputByUser){
+        protected void Choice(bool InputByUser){
             if(!InputByUser){
                 RandomInput();
             }
